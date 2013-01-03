@@ -39,7 +39,7 @@ import org.w3c.dom.Document;
 import testautomation.framework.CaptureScreenshot;
 import testautomation.framework.LogGenerator;
 import testautomation.framework.SetupDriver;
-import testautomation.framework.TestRecorder;
+
 
 import org.junit.Assume.*;
 import java.awt.datatransfer.StringSelection;
