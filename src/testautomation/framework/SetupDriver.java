@@ -83,12 +83,12 @@ public class SetupDriver
 
 			
 		userCredentials.load(this.getClass().getClassLoader().
-				getResourceAsStream("vmtesttool.properties"));
+				getResourceAsStream("config/vmtesttool.properties"));
 //		getResourceAsStream("config/vmtesttool.properties"));
 		//userCredentials.load(this.getClass().getClassLoader().
 			//getResourceAsStream("config/cloudtesttool.properties"));
 		environmentProperties.load(this.getClass().getClassLoader().
-			getResourceAsStream("testenvironment.properties"));
+			getResourceAsStream("config/testenvironment.properties"));
 //		getResourceAsStream("config/testenvironment.properties"));
 	
 		System.out.println("2 inside Driver Setup");
